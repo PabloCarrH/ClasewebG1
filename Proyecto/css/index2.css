@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fefae0;
+}
+
+.name{
+    width: 100%;
+    height: 300px;
+    background: #669bbc;
+    display: table;
+    transform: skewY(-4deg);
+    
+}
+
+.name .img {
+    position: absolute;
+    top: 28%;
+    right: 50%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;
+}
+
+.name .img img {
+    width: 180px;
+    height: 180px;
+}
+.info{
+    width: 90%;
+    height: auto;
+    background: #669bbc;
+    margin:5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.info .relleno {
+    color: #000000;
+    font-family: "Anek Devanagari", sans-serif;
+    font-weight: normal;
+    font-size: large;
+}
+
+
+.info .tituloSeccion {
+    color: #fdf0d5;
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #fdf0d5 dashed;    
+}
+
+.info .tituloInfo {
+    color: #fdf0d5;
+    font-family: "Anek Devanagari", sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+
+.info .infoInfo {
+    color: #000000;
+    font-family: "Anek Devanagari", sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.info span {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    background: #6D7275;
+    color: #fdf0d5;
+    font-family: "Anek Devanagari", sans-serif;
+    border-radius: 5px;
+}
