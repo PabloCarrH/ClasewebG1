@@ -8,3 +8,6 @@ Un buen diseño mejora la experiencia del usuario al facilitar la navegación y 
 
 Plan de trabajo
 Desarrollo de aplicación web
+Objetivos:
+-Análisis y definición de requerimentos de la propuesta.
+-Definir diseño web.
