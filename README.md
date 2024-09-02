@@ -21,3 +21,15 @@ Promover un estilo de vida saludable y apoyar la autonomía de los usuarios medi
 Crear una Red de Apoyo y Comunicación:  
 Establecer una comunidad en línea que ofrezca soporte emocional y asistencia a través de redes de cuidadores, familiares y otros usuarios.
 
+Objetivos Específicos  
+Desarrollar una Plataforma Intuitiva para la Gestión de Citas Médicas:  
+Crear una interfaz fácil de usar para que los usuarios, familiares o cuidadores puedan solicitar, reprogramar y cancelar citas médicas sin dificultad. Implementar un Sistema de Asesoría Médica en Línea:  
+Ofrecer consultas en línea con profesionales de la salud para responder a preguntas médicas básicas y proporcionar orientación sin necesidad de desplazamientos.  
+Proveer Recursos Educativos y Herramientas de Bienestar:  
+Integrar secciones de educación sobre salud, bienestar físico y mental, incluyendo guías y recomendaciones adaptadas a las necesidades de los usuarios.  
+Establecer un Mecanismo de Acompañamiento para Citas Médicas:  
+Facilitar la asignación de acompañantes para asistir a los usuarios durante sus citas médicas, garantizando apoyo y asistencia durante el proceso.  
+Integrar un Sistema de Monitorización de Salud Remota:  
+Implementar dispositivos que permitan el seguimiento de parámetros de salud en tiempo real y su transmisión a la plataforma para el monitoreo por profesionales médicos.  
+Ofrecer un Servicio de Entrega de Medicamentos a Domicilio:  
+Implementar un sistema para la entrega de medicamentos a casa, con opciones de frecuencia y programación según las necesidades del paciente.
