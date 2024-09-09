@@ -9,7 +9,7 @@ body {
     padding: 10px 20px;
     display: inline-block;
     position: relative;
-    height: 100%; /* Ocupa todo el alto del navbar */
+     /* Ocupa todo el alto del navbar */
 }
 
 /* Inclinación en el lado derecho */
@@ -19,14 +19,11 @@ body {
     top: 0;
     right: 0;
     width: 0;
-    height: 100%;
+    
     border-left: 30px solid transparent;
     border-top: 60px solid #007bff; /* Color del fondo azul */
 }
 
-.container-fluid{
-    height: 100%;
-}
 
 /* Espaciado entre las secciones del menú y el nombre */
 .navbar-nav {
