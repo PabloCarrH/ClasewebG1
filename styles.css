@@ -61,6 +61,12 @@ button:hover {
     margin-right: 5px;
 }
 
+/* Asegúrate de que el label también esté alineado */
+.remember-me label {
+    white-space: nowrap; /* Evita el salto de línea dentro del label */
+}
+
+
 .forgot-password {
     text-align: center;
     margin-top: 10px;
