@@ -5,12 +5,14 @@ body {
 }
 
 .brand-container {
-    background-color: #007bff; /* Fondo azul */
+    background-color: #ffffff; /* Fondo azul */
     color: white;
     padding: 10px 20px;
     display: inline-block;
     position: relative;
+    font-weight: bold;
     height: 100%; /* Ocupa todo el alto del navbar */
+    
 }
 
 /* Inclinación en el lado derecho */
@@ -22,7 +24,7 @@ body {
     width: 0;
     height: 100%;
     border-left: 30px solid transparent;
-    border-top: 60px solid #007bff; /* Color del fondo azul */
+    border-top: 60px solid #ffffff; /* Color del fondo azul */
 }
 
 .container-fluid{
@@ -31,7 +33,7 @@ body {
 
 /* Espaciado entre las secciones del menú y el nombre */
 .navbar-nav {
-    margin-left: 20px;
+    margin-left: 100px;
 }
 
 /* Hace que el navbar sea blanco */
@@ -39,20 +41,6 @@ body {
     background-color: white !important;
 }
 
-/* Estilos adicionales si quieres agregar más personalización */
-.navbar-nav .nav-link {
-    color: #007bff;
-}
-
-.btn-outline-primary {
-    color: #007bff;
-    border-color: #007bff;
-}
-
-.btn-outline-primary:hover {
-    background-color: #007bff;
-    color: white;
-}
 
 .container {
     width: 50%;
