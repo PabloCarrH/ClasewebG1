@@ -3,6 +3,33 @@ body {
     background-color: #f0f0f0;
 }
 
+.brand-container {
+    background-color: #007bff; /* Color azul */
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+    display: inline-block;
+    margin-right: 30px; /* Espacio entre el nombre y las secciones */
+}
+
+/* Crea la inclinación del lado derecho */
+.brand-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -30px; /* Controla la inclinación */
+    width: 0;
+    height: 100%;
+    border-left: 30px solid transparent;
+    border-bottom: 50px solid #007bff;
+}
+
+/* Ajuste para que no interfiera con el contenido de la página */
+.navbar-nav {
+    margin-left: 20px; /* Ajuste del margen para mayor separación */
+}
+
+
 .container {
     width: 50%;
     margin: 40px auto;
