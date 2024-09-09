@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    background-color: #e9e6e6;
 }
 
 .brand-container {
@@ -22,6 +22,10 @@ body {
     height: 100%;
     border-left: 30px solid transparent;
     border-top: 60px solid #007bff; /* Color del fondo azul */
+}
+
+.container-fluid{
+    height: 100%;
 }
 
 /* Espaciado entre las secciones del menú y el nombre */
