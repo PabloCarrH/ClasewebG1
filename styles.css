@@ -1,34 +1,53 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ff0000;
+    background-color: #ffffff;
 }
 
 .brand-container {
-    background-color: #007bff; /* Color azul */
+    background-color: #007bff; /* Fondo azul */
     color: white;
     padding: 10px 20px;
-    position: relative;
     display: inline-block;
-    margin-right: 30px; /* Espacio entre el nombre y las secciones */
+    position: relative;
+    height: 100%; /* Ocupa todo el alto del navbar */
 }
 
-/* Crea la inclinación del lado derecho */
+/* Inclinación en el lado derecho */
 .brand-container::after {
     content: '';
     position: absolute;
     top: 0;
-    right: -30px; /* Controla la inclinación */
+    right: 0;
     width: 0;
     height: 100%;
     border-left: 30px solid transparent;
-    border-bottom: 50px solid #007bff;
+    border-top: 60px solid #007bff; /* Color del fondo azul */
 }
 
-/* Ajuste para que no interfiera con el contenido de la página */
+/* Espaciado entre las secciones del menú y el nombre */
 .navbar-nav {
-    margin-left: 20px; /* Ajuste del margen para mayor separación */
+    margin-left: 20px;
 }
 
+/* Hace que el navbar sea blanco */
+.navbar {
+    background-color: white !important;
+}
+
+/* Estilos adicionales si quieres agregar más personalización */
+.navbar-nav .nav-link {
+    color: #007bff;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+}
 
 .container {
     width: 50%;
