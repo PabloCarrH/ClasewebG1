@@ -1,9 +1,3 @@
- /* Reset de márgenes y paddings */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 /* Estilos para el cuerpo */
 body {
     font-family: Arial, sans-serif;
