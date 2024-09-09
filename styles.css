@@ -6,7 +6,7 @@ body {
 
 .brand-container {
     background-color: #ffffff; /* Fondo azul */
-    color: white;
+    color: rgb(68, 61, 255);
     padding: 10px 20px;
     display: inline-block;
     position: relative;
