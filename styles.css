@@ -479,3 +479,27 @@ textarea {
     max-width: 40px;
   }
 }
+
+.nav-list .btn-login,
+.nav-list .btn-register {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 15px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list .btn-register {
+    background-color: #007bff;
+}
+
+.nav-list .btn-login:hover {
+    background-color: #218838;
+}
+
+.nav-list .btn-register:hover {
+    background-color: #0056b3;
+}
