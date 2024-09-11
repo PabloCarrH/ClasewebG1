@@ -2,15 +2,12 @@ body{
     font-family: sans-serif;
     margin: 0;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
+
 
 header{
     display: flex;
     min-height: 70px;
-    background-color: #8ecae6;
+    background-color: #000000;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -21,15 +18,27 @@ header{
     font-size: 30px;
 }
 
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
 nav a{
     font-weight: 600;
     padding-right: 70px;
     font-size: 20px;
 }
 
-a:hover{
-    color: white;
+a:hover{   
+    font-size: 25px;
 }
+
+.titulo-pag{
+    color: #ffffff;
+    text-align: center;
+}
+    
+
 
 @media (max-width:700px){
     header{
