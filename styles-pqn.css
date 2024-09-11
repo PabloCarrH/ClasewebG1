@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     background: #FFF8F0;
+    display: block;
 }
 
 
@@ -18,6 +19,7 @@ header{
 
 .nombre-compañia{
     font-size: 30px;
+    margin-left: 15px;
 }
 
 a{
@@ -29,10 +31,12 @@ nav a{
     font-weight: 600;
     padding-right: 70px;
     font-size: 20px;
+    display: inline-block;
 }
 
 a:hover{   
     color: #219ebc;
+    transform: scale(1.2);
 }
 
 .titulo-pag{
@@ -51,6 +55,16 @@ a:hover{
     margin-bottom: 5px;
 }
 
+.container-pag{
+    background-color: #000000;
+    width: 60%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+p{
+    color: white;
+}
 
 @media (max-width:700px){
     header{
