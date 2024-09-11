@@ -27,6 +27,14 @@ a{
     color: rgb(255, 255, 255);
 }
 
+p{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
 nav a{
     font-weight: 600;
     padding-right: 70px;
@@ -62,9 +70,16 @@ a:hover{
     margin: 0 auto;
 }
 
-p{
-    color: white;
+footer{
+    background-color: #000000;
+    width: 100%;
+    height: auto;
 }
+
+.container-footer{
+    display: block;
+}
+
 
 @media (max-width:700px){
     header{
