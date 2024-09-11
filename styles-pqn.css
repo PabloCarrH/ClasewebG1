@@ -1,6 +1,8 @@
 body{
     font-family: sans-serif;
     margin: 0;
+    padding: 0;
+    background: #FFF8F0;
 }
 
 
@@ -30,14 +32,24 @@ nav a{
 }
 
 a:hover{   
-    font-size: 25px;
+    color: #219ebc;
 }
 
 .titulo-pag{
-    color: #ffffff;
+    color: #000000;
     text-align: center;
+    transform: skewy(3deg);
 }
     
+.container-title{
+    width: 300px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    transform: skewy(-3deg);
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
 
 @media (max-width:700px){
