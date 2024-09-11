@@ -26,7 +26,17 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
+.recursos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ajusta el número de columnas según tus necesidades */
+  gap: 20px;
+}
 
+.recurso img {
+  width: 100%; /* La imagen ocupará todo el ancho de su contenedor */
+  height: auto; /* La altura se ajustará proporcionalmente */
+  object-fit: cover; /* La imagen llenará todo el contenedor, recortando si es necesario */
+}
 /* Header Styles */
 .site-header {
   background-color: var(--primary-color);
@@ -190,19 +200,7 @@ h2 {
 }
 
 /* Resources Section */
-.recursos-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-}
 
-.recurso {
-  background-color: var(--feature-bg-color);
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  transition: var(--transition);
-}
 
 .recurso:hover {
   transform: translateY(-5px);
@@ -478,28 +476,4 @@ textarea {
   .recurso-logo img {
     max-width: 40px;
   }
-}
-
-.nav-list .btn-login,
-.nav-list .btn-register {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-left: 15px;
-    background-color: #28a745;
-    color: #fff;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.nav-list .btn-register {
-    background-color: #007bff;
-}
-
-.nav-list .btn-login:hover {
-    background-color: #218838;
-}
-
-.nav-list .btn-register:hover {
-    background-color: #0056b3;
 }
