@@ -485,7 +485,7 @@ textarea {
 }
 /* Estilo para el botón de Iniciar Sesión */
 .login-button {
-    background-color: #ff6b6b; /* Color del fondo */
+    background-color: #0e32fa; /* Color del fondo */
     color: white; /* Color del texto */
     padding: 10px 20px; /* Espaciado interno del botón */
     border-radius: 5px; /* Bordes redondeados */
@@ -495,5 +495,5 @@ textarea {
 }
 
 .login-button:hover {
-    background-color: #ff4c4c; /* Color al pasar el ratón sobre el botón */
+    background-color: #0a28c7; /* Color al pasar el ratón sobre el botón */
 }
