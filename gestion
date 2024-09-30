@@ -36,3 +36,51 @@
         </ul>
     </div>
 </section>
+<section id="agendar-cita">
+    <div class="container">
+        <h2>Agendar Cita</h2>
+        <form id="formulario-cita">
+            <div class="form-group">
+                <label for="profesional">Selecciona el profesional:</label>
+                <select id="profesional" required>
+                    <option value="">Seleccione un profesional</option>
+                    <option value="1">Dr. García - Medicina General</option>
+                    <option value="2">Dra. Rodríguez - Pediatría</option>
+                    <option value="3">Dr. López - Cardiología</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="fecha">Fecha de la cita:</label>
+                <input type="date" id="fecha" required>
+            </div>
+
+            <div class="form-group">
+                <label for="hora">Hora de la cita:</label>
+                <input type="time" id="hora" required>
+            </div>
+
+            <div class="form-group">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" required>
+            </div>
+
+            <div class="form-group">
+                <label for="recordatorio">¿Desea recibir recordatorios?</label>
+                <input type="checkbox" id="recordatorio" checked>
+            </div>
+
+            <button type="submit" class="cta-button">Confirmar Cita</button>
+        </form>
+    </div>
+</section>
