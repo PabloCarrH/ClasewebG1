@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous" defer></script>
+    <title>Gestión de Citas Médicas</title>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container">
+        <h1>Gestión de Citas Médicas</h1>
+    </div>
+</header>
+
+<div class="hero">
+    <div class="container">
+        <h1>Programa, Reprograma o Cancela tus Citas Médicas</h1>
+        <p>Hazlo de forma rápida y sencilla desde la comodidad de tu hogar.</p>
+        <a href="#agendar-cita" class="cta-button">Comienza Ahora</a>
+    </div>
+</div>
+
+<section id="como-funciona">
+    <div class="container">
+        <h2>¿Cómo Funciona?</h2>
+        <p>Utiliza nuestra plataforma para gestionar tus citas médicas de manera eficiente:</p>
+        <ul>
+            <li>Selecciona el profesional que deseas.</li>
+            <li>Elige la fecha y hora que mejor te convenga.</li>
+            <li>Confirma tu cita y recibe recordatorios.</li>
+        </ul>
+    </div>
+</section>
