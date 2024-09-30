@@ -406,6 +406,7 @@ textarea {
   color: var(--secondary-color); /* Cambia el color al pasar el cursor */
 }
 
+
 /* Notification Styles */
 .notification {
   position: fixed;
@@ -481,4 +482,18 @@ textarea {
   .recurso-logo img {
     max-width: 40px;
   }
+}
+/* Estilo para el botón de Iniciar Sesión */
+.login-button {
+    background-color: #ff6b6b; /* Color del fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Eliminar subrayado */
+    font-weight: 600; /* Hacer el texto un poco más grueso */
+    transition: background-color 0.3s ease; /* Efecto de transición en hover */
+}
+
+.login-button:hover {
+    background-color: #ff4c4c; /* Color al pasar el ratón sobre el botón */
 }
