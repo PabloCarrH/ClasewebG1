@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous" defer></script>
+    <title>Asesoría Médica en Línea</title>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container">
+        <h1>Asesoría Médica en Línea</h1>
+    </div>
+</header>
+
+<div class="hero">
+    <div class="container">
+        <h1>Accede a Consultas Médicas Personalizadas</h1>
+        <p>Desde la comodidad de tu hogar, con profesionales a tu disposición.</p>
+        <a href="#solicitar-asesoria" class="cta-button">Solicita tu Consulta</a>
+    </div>
+</div>
+
+<section>
+    <div class="container">
+        <h2>¿Cómo Funciona?</h2>
+        <p>Con nuestra plataforma, puedes acceder a asesoría médica de manera sencilla:</p>
+        <ul>
+            <li>Selecciona el tipo de consulta que necesitas.</li>
+            <li>Elige a un profesional médico disponible.</li>
+            <li>Agenda tu cita y recibe confirmación inmediata.</li>
+            <li>Conéctate para tu consulta en línea a la hora programada.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="solicitar-asesoria">
+    <div class="container">
+        <h2>Solicitar Asesoría</h2>
+        <form id="formulario-asesoria">
+            <div class="form-group">
+                <label for="tipo-consulta">Tipo de Consulta:</label>
+                <select id="tipo-consulta" required>
+                    <option value="">Seleccione el tipo de consulta</option>
+                    <option value="general">Medicina General</option>
+                    <option value="pediatria">Pediatría</option>
+                    <option value="psicologia">Psicología</option>
+                    <option value="nutricion">Nutrición</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="profesional">Profesional Médico:</label>
+                <select id="profesional" required>
+                    <option value="">Seleccione un profesional</option>
+                    <!-- Las opciones se cargarán dinámicamente según el tipo de consulta -->
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="fecha">Fecha de la consulta:</label>
+                <input type="date" id="fecha" required>
+            </div>
+
+            <div class="form-group">
+                <label for="hora">Hora de la consulta:</label>
+                <input type="time" id="hora" required>
+            </div>
+
+            <div class="form-group">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="sintomas">Describa brevemente sus síntomas o motivo de consulta:</label>
+                <textarea id="sintomas" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="cta-button">Agendar Consulta</button>
+        </form>
+    </div>
+</section>
+
+<section id="consulta-online" style="display: none;">
+    <div class="container">
+        <h2>Consulta en Línea</h2>
+        <div id="chat-window">
+            <!-- Aquí se mostrarán los mensajes de la consulta -->
+        </div>
+        <form id="chat-form">
+            <div class="form-group">
+                <input type="text" id="mensaje" placeholder="Escriba su mensaje aquí" required>
+            </div>
+            <button type="submit" class="cta-button">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <div class="container">
+        <p>&copy; 2024 Asesoría Médica en Línea. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const formAsesoria = document.getElementById('formulario-asesoria');
+    const tipoConsulta = document.getElementById('tipo-consulta');
+    const profesional = document.getElementById('profesional');
+    const seccionConsulta = document.getElementById('consulta-online');
+    const chatWindow = document.getElementById('chat-window');
+    const chatForm = document.getElementById('chat-form');
+
+    
+    tipoConsulta.addEventListener('change', function() {
+        profesional.innerHTML = '<option value="">Seleccione un profesional</option>';
+        if (this.value) {
+            ['Dr. García', 'Dra. Rodríguez', 'Dr. López'].forEach(function(doctor, index) {
+                const option = document.createElement('option');
+                option.value = index;
+                option.textContent = doctor;
+                profesional.appendChild(option);
+            });
+        }
+    });
+
+    formAsesoria.addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('Consulta agendada. Recibirás un correo con los detalles de conexión.');
+        
+        seccionConsulta.style.display = 'block';
+        formAsesoria.style.display = 'none';
+    });
+
+    formAsesoria.reset();
+
+    setTimeout(function() {
+            mensajeConfirmacion.style.display = 'none';
+            window.location.href = 'index.html';
+        }, 3000);
+});
+</script>
+
+</body>
+</html>
