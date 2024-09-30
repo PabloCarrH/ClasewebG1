@@ -25,6 +25,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  
 }
 .recursos-grid {
   display: grid;
@@ -496,4 +497,8 @@ textarea {
 
 .login-button:hover {
     background-color: #0a28c7; /* Color al pasar el ratón sobre el botón */
+}
+#inicio {
+  background: linear-gradient(to right, #77d2ff, #cf86ff); 
+  height: 100vh; 
 }
