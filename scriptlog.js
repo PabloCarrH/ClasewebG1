@@ -1,7 +1,4 @@
 // Importar Firebase
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-
 const firebaseConfig = {
     apiKey: "AIzaSyDoFt1Qru67Fjyule7RNrTSIvAQlTJbbTk",
     authDomain: "talkvi-b5abd.firebaseapp.com",
